@@ -4,8 +4,7 @@ $(document).ready(function(e){
 //para agregar el escucha
 document.addEventListener("deviceready", function(){
 	$('.btn').tap(function (){
-	var boton =(($(this).attr('class')).split
-	(' ')) [1];
+	var boton =(($(this).attr('class')).split(' ')) [1];
  switch (boton)
  {
 	 case 'b1' :
